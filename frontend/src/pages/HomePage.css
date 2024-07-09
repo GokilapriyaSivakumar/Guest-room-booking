@@ -1,0 +1,20 @@
+/* HomePage.css */
+
+.homepage-container {
+    padding: 2rem;
+    background-color: #f7f7f7;
+  }
+  
+  .homepage-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .room-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  

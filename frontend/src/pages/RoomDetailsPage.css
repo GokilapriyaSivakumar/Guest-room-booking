@@ -1,0 +1,55 @@
+/* RoomDetailsPage.css */
+
+.room-details-container {
+    padding: 2rem;
+    background-color: #f7f7f7;
+  }
+  
+  .room-details-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .availability-calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .availability-date {
+    padding: 0.5rem;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+  }
+  
+  .booking-form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .book-button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .book-button:hover {
+    background-color: #45a049;
+  }
+  
+  .success-popup {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+  }
+  

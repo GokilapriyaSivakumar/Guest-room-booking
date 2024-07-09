@@ -1,0 +1,95 @@
+/* OwnerDashboard.css */
+.owner-dashboard {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f4f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .owner-dashboard h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
+  .room-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .room-form div {
+    margin-bottom: 20px;
+  }
+  
+  .room-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    font-size: 1em;
+  }
+  
+  .room-form input,
+  .room-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .room-form input:focus,
+  .room-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .room-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+  }
+  
+  .room-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .room-list {
+    margin-top: 20px;
+  }
+  
+  .room-item {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-item h2 {
+    margin: 0 0 10px;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  
+  .room-item p {
+    margin: 0;
+    color: #666;
+    font-size: 1em;
+  }
+  
